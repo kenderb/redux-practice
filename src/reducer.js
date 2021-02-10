@@ -6,7 +6,7 @@ export default function reducer(state = [], action) {
       ...state,
       {
         id: ++lastId,
-        description: action.playload.description,
+        description: action.payload.description,
         resolved: false
       }
     ];
